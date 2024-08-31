@@ -26,7 +26,4 @@ Summarize the results of the machine learning models, and include a recommendati
 
 If you do not recommend any of the models, please justify your reasoning.
 
-Credit Risk Analysis
-The purpose of this analysis is to predict the possiblity of customers who may default on their loans. This is based on a lending data received in a csv format, which was used to predict the data with machine learning and python. The lending data contained loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt and loan status data. The loan status column is the data I was trying to predict by using logistic regression model by importing "from sklearn.linear_model import LogisticRegression" to determine the trend for '0'(healthy loan) and '1'(high-risk loan) labels. The process started with importing the necesary modules; numpy as np, os, pandas as pd, from pathlib import path, from sklearn.metrics import confusion_matrix and classification _report. To split the data into training and testing sets; the lending data csv was read in as a pandas DataFrame, then the labels and features were separated creating a y and x variable. Then the data was split using module "from sklearn.model_selection import train_test_split" after which the logistic regression model was created, using the model, fit, predit method. Lastly, the model's performance was evaluated using the confusion matrix and classification reports.
-    In the classification reports, the training report had;
     
